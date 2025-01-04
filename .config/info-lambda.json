@@ -1,20 +1,14 @@
 {
-    "function_name": "",
-    "description": "",
+    "name_lambda": "super_lambda_templete",
+    "description": "This templete is for super lambda",
     "version": "1.0.0",
     "handler": "src/lambda_function.lambda_handler",
     "runtime": "python3.12",
-    "timeout": 0,
-    "memory_size": 0,
-    "environment": {
-        "key": "value"
-    },
-    "layers": [
-        {
-            "name":"",
-            "version": ""
-        }
-    ],
+    "timeout": 3,
+    "memory_size": 128,
+    "environment": null,
+    "layers": null,
+    "permissions": null,
     "source_dir": "src",
     "build_dir": ".build"
 }
